@@ -103,7 +103,7 @@ nav > a {
 }
 
 #pawprint {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 h1 {
@@ -112,8 +112,8 @@ h1 {
     font-weight: 700;
     font-size: 40px;
 
-    padding-top: 5px;
-    padding-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 #subart1 {
@@ -129,13 +129,26 @@ h1 {
     justify-content: center;
 }
 
-section > article {
+.articles {
     width: 265px;
     height: 269px;
 
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    align-items: center;
+
+    margin: 40px;
+}
+
+.subarts {
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+}
+
+.price-arts{
+    color: #F0A83E;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer {
