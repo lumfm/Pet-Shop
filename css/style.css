@@ -94,3 +94,60 @@ nav > a {
     right: 117px;
     top: 24px;
 }
+
+#article_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pawprint {
+    padding-top: 20px;
+}
+
+h1 {
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+#subart1 {
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.section1 {
+    display:flex;
+    justify-content: center;
+}
+
+section > article {
+    width: 265px;
+    height: 269px;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer {
+    height: 20px;
+    background-color: #222222;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
