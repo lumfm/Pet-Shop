@@ -85,6 +85,7 @@ nav > a {
     width: 141px;
     height: 49px;
     background-color: #F0A83E;
+    border-radius: 5px;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
