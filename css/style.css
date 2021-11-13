@@ -273,8 +273,66 @@ div.info {
     background-color: #3C2313;
 
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+}
+
+#icons {
+    height: 284px;
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
+}
+
+#icons-ind {
+    width: 58px;
+    height: 58px;
+    background-color: #8A8787;
+    color: #FFFFFF;
+    border-radius: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#info-items {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#info-items-sub {
+    color: #8A8787;
+    font-size: 10px;
+}
+
+.info-group {
+    height: 284px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    position: relative;
+    right: 450px;
+}
+
+#bottom-logo {
+    width: 166px;
+    height: 23px;
+
+    position: relative;
+    right: 70px;
 }
 
 footer {
