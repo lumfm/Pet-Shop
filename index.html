@@ -2,78 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     
     <script src="https://kit.fontawesome.com/071e80bb0d.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="./css/style.css">
     <title>Petshop</title>
 </head>
 <body>
-    <header>
-        <div>Grandes ofertas en comederos</div>
 
-        <div>
-            <span>Español</span>
-            <span>ARG$</span> 
-        </div>
-                   
+<!--header-->
+    <header class="header">
+        <div class="header1">
+            <span>Grandes ofertas en comederos</span>
+
+            <div>
+                <span>Español</span>
+                <span>ARG$</span> 
+            </div>
+        </div>                  
+    
+        <div class="header2">
+            <img src="./img/logo.png" alt="logo">
+            <div class="header_links">
+                <span id="links"><a href="https://www.google.com/"><img src="./img/huella.png" alt="huella">Categorías</a></span>
+                <span id="links"><a href="https://www.google.com/"><img src="./img/huella.png" alt="huella">Pets</a></span>
+                <span id="links"><a href="https://www.google.com/"><img src="./img/huella.png" alt="huella">Nosotros</a></span>
+                <span id="links"><a href="https://www.google.com/"><img src="./img/huella.png" alt="huella">Contáctanos</a></span>
+            </div> 
+        </div>   
     </header>
 
-    <div class="header2">
-        <img src="./img/logo.png" alt="logo">
-        <nav>
-            <a href="https://www.google.com/"><img src="./img/huella.png" alt="huella">Categorías</a>
-            <a href="https://www.google.com/"><img src="./img/huella.png" alt="huella">Pets</a>
-            <a href="https://www.google.com/"><img src="./img/huella.png" alt="huella">Nosotros</a>
-            <a href="https://www.google.com/"><img src="./img/huella.png" alt="huella">Contáctanos</a>
-        </nav> 
-    </div>   
 <!--bienvenida-->
-    <div class="top">
-        <p id="bienvenida">¡Es un placer tenerte aquí!</p>
-        <p id="subtitulo-top">¡Comederos en descuento!</p>
-        <button id="boton-comederos">COMEDEROS</button>
-    </div>
-    
-    <article id="article_title">
-        <img id="pawprint" src="./img/pawprint.png" alt="patita de mascota">
-        <h1>Productos Destacados</h1>
-        <div id="subart1">Comederos - Accesorios - Comida</div>
-    </article>
+    <section class="bienvenida">
+        <article class="items-bienvenida">
+            <div id="bienvenida"><p>¡Es un placer tenerte aquí!</p></div>
+            <div id="subtitulo-top"><p>¡Comederos en descuento!</p></div>
+            <button id="boton-comederos">COMEDEROS</button>
+        </article>       
+    </section>    
+
 <!--productos destacados-->        
     <section class="section1">
 
-        <article class="articles">
-            <img src="./img/churrasquito.png" alt="juguete churrasco">
-            <div class="subarts">Juguete Churrasquito</div>
-            <div class="price-arts">$105</div>
-        </article>
-    
-        <article class="articles">
-            <img src="./img/comedero.png" alt="comedero para mascota">
-            <div class="subarts">Comedero para perro</div>
-            <div class="price-arts">$250</div>    
-        </article>
-    
-        <article class="articles">
-            <img src="./img/huesito.png" alt="juguete huesito">
-            <div class="subarts">Juguete Huesito</div>
-            <div class="price-arts">$650</div>
-        </article>
-    
-    </section>  
-<!--contactanos-->
-    <section class="section2">
-        <article>
-            <div id="contactanos">Contáctanos</div>
-            <div class="info">Nombre y Apellido</div>
-            <div class="info">Ingresá tu correo electrónico</div>
-            <div class="info">Teléfono</div>
+        <article class="article-header">
+            <img id="pawprint" src="./img/pawprint.png" alt="patita de mascota">
+            <div id="title"><h1>Productos Destacados</h1></div>
+            <div id="article-sections">Comederos - Accesorios - Comida</div>
         </article>
 
-        <article>
-            <button id="boton1">Resetear</button>
-            <button id="boton2">Enviar</button>
+        <article class="articles-group">
+            <div class="article-item1">
+                <img src="./img/churrasquito.png" alt="juguete churrasco">
+                <div id="nombre-item">Juguete Churrasquito</div>
+                <div id="precio-item">$105</div>
+            </div>
+
+            <div class="article-item2">
+                <img src="./img/comedero.png" alt="comedero para mascota">
+                <div id="nombre-item">Comedero para perro</div>
+                <div id="precio-item">$250</div>    
+            </div>
+
+            <div class="article-item3">                
+                <img src="./img/huesito.png" alt="juguete huesito">
+                <div id="nombre-item">Juguete Huesito</div>
+                <div id="precio-item">$650</div>
+            </div>            
         </article>
+    </section> 
+
+<!--contactanos-->
+    <section>
+
+        <article class="contacto">
+            <div id="contactanos">Contáctanos</div>
+            <div class="casillas">
+                <div id="casilla">Nombre y Apellido</div>
+                <div id="casilla">Ingresá tu correo electrónico</div>
+                <div id="casilla">Teléfono</div>
+            </div>
+
+            <div class="botones-contacto">
+                <button id="boton1">Resetear</button>
+                <button id="boton2">Enviar</button>
+            </div>
+        </article>
+
     </section>
 <!--suscríbete-->
     <section>
@@ -83,7 +98,7 @@
                 <span id="texto-suscribete">Suscríbete para más novedades</span>
             </div>
          
-            <div id="correo-boton">
+            <div class="correo-boton">
                 <div id="casilla-correo">Ingresá tu correo electrónico</div>
                 <button id="boton-suscribete">Suscribirme</button>
             </div>            
